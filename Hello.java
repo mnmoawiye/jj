@@ -1,19 +1,19 @@
 // Circle2D class models a circle in 2D space
-public class Circle2D {
+public class Hello {
     // Private data fields
     private double x;
     private double y;
     private double radius;
 
     // No-arg constructor: default circle at (0,0) with radius 1
-    public Circle2D() {
+    public Hello() {
         this.x = 0;
         this.y = 0;
         this.radius = 1;
     }
 
     // Parameterized constructor
-    public Circle2D(double x, double y, double radius) {
+    public Hello(double x, double y, double radius) {
         this.x = x;
         this.y = y;
         this.radius = radius;
